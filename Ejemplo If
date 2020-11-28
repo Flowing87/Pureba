@@ -1,0 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ejemplo_if_else;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author andre
+ */
+public class Switch {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println(" Ingrese un numero ");
+        int semana = sc.nextInt();
+        switch (semana) {
+             
+            case 1:
+                System.out.println("Lunes");
+                break;
+            case 2: 
+                System.out.println("Martes");
+                break;
+        }
+        
+    }
+}
